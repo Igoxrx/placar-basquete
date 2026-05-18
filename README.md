@@ -72,9 +72,6 @@ git push origin feature/minha-alteracao
 
 5. Abra um Pull Request neste repositório descrevendo as alterações realizadas.
 
-## Licença
-
-Distribuído sob a licença MIT.
 
 ## Autor e contato
 
