@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Placar de Basquete
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+Aplicação Web desenvolvida em React e Next.js para gerenciar placares de partidas de basquete. O sistema controla equipes, jogadores, pontuação individual e coletiva, cronômetro por períodos e histórico de ações.
+
+O projeto utiliza o gerenciamento de estado global via Context API e useReducer, garantindo a integridade da aplicação. Os dados da partida e o histórico de resultados são persistidos no armazenamento local do navegador.
+
+## Pré-requisitos
+
+* Node.js (versão 18 ou superior)
+* Gerenciador de pacotes npm (incluído no Node.js)
+* Git
+
+## Instalação
+
+1. Clone o repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/usuario/placar-basquete.git
+
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd placar-basquete
+
+```
+
+3. Instale as dependências necessárias:
+
+```bash
+npm install
+
+```
+
+## Uso
+
+Para iniciar o servidor de desenvolvimento local, execute o seguinte comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após a inicialização, abra o navegador e acesse `http://localhost:3000` para utilizar a aplicação.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Como contribuir
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Faça um fork deste repositório.
+2. Crie uma nova branch com a sua funcionalidade ou correção:
 
-## Learn More
+```bash
+git checkout -b feature/minha-alteracao
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Faça o commit das suas alterações:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git commit -m "Adiciona nova funcionalidade de estatísticas"
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Envie o código para o seu repositório remoto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git push origin feature/minha-alteracao
+
+```
+
+5. Abra um Pull Request neste repositório descrevendo as alterações realizadas.
+
+## Licença
+
+Distribuído sob a licença MIT.
+
+## Autor e contato
+
+Desenvolvido por João Igor.
+Para dúvidas ou sugestões, entre em contato através do GitHub ou envie um e-mail.
